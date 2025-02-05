@@ -55,7 +55,7 @@ img, embed, object, video, picture {
     grid-column: 2/3; 
     /* puts grid-con into the 2nd column of full-width-grid-con */
     grid-row: 1/1;
-    margin: 0;
+    margin: 0 auto;
  }
   
   .grid-con {
@@ -86,12 +86,12 @@ img, embed, object, video, picture {
   .col-end-5	{grid-column-end: 5;}
   
   /* 3. ---Tablet Library Grid Styles--- */
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 641px) {
       .grid-con {
           display: grid;
-          grid-template-columns: repeat(12, minmax(0, 1fr));
+          grid-template-columns: repeat(4, minmax(0, 1fr));
           grid-column-gap: 20px;
-          max-width: 768px;
+          max-width: 641px;
           margin: 0 auto;
           padding-left: 20px;
           padding-right: 20px;
@@ -143,7 +143,7 @@ img, embed, object, video, picture {
   }
   
   /* 4. ---Desktop Library Grid Styles--- */
-  @media screen and (min-width: 1200px) {
+  /* @media screen and (min-width: 1200px) {
       .grid-con {
           display: grid;
           grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -197,4 +197,4 @@ img, embed, object, video, picture {
       .l-col-end-12	{grid-column-end: 12;}
       .l-col-end-13	{grid-column-end: 13;}
   
-  }
+  } */

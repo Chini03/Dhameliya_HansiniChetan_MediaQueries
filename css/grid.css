@@ -42,17 +42,7 @@ img, embed, object, video, picture {
      display: none;
   }
   
-  .box {
-      background-color: brown;
-      color: white;
-      font-size: 16px;
-      font-family: Arial, Helvetica, sans-serif;
-      border-radius: 4px;
-      padding: 24px;
-      text-align: center;
-      margin-top: 12px;
-      margin-bottom: 12px;
-  }
+
 
   .full-width-grid-con {
     display: grid;

@@ -60,6 +60,13 @@ img, embed, object, video, picture {
     margin: 0 auto;
     justify-content: center;
  }
+
+ #heading .grid-con, #hero .grid-con {
+    grid-column: 2/3; 
+    /* puts grid-con into the 2nd column of full-width-grid-con */
+    grid-row: 1/1;
+    margin: 0;
+ }
   
   .grid-con {
       display: grid;

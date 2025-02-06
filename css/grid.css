@@ -62,7 +62,7 @@ img, embed, object, video, picture {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-column-gap: 20px;
-      max-width: 412px;
+      max-width: 609px;
       margin: 0 auto;
       padding-left: 16px;
       padding-right: 16px;
@@ -89,7 +89,7 @@ img, embed, object, video, picture {
   @media screen and (min-width: 641px) {
       .grid-con {
           display: grid;
-          grid-template-columns: repeat(4, minmax(0, 1fr));
+          grid-template-columns: repeat(12, minmax(0, 1fr));
           grid-column-gap: 20px;
           max-width: 641px;
           margin: 0 auto;
